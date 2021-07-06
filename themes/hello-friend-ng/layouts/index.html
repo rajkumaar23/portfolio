@@ -4,7 +4,7 @@
             <img alt="Rajkumar S" height="150" src="{{ .Site.Params.profileImage }}"
                  style="display: block;margin-left: auto;margin-right: auto;border-radius: 50%;" width="150"/>
             <h1 style="margin-top: 0;margin-bottom: 0;">{{ .Site.Author.name }}</h1>
-            <p style="margin-top: 0;">SWE Intern | <a href="https://codechef.com">CodeChef</a></p>
+            <p style="margin-top: 0;">{{ .Site.Params.homeSubtitle }}</p>
 
             {{- with .Site.Params.social }}
                 <div>
